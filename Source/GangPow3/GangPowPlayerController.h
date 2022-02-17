@@ -27,7 +27,6 @@ class GANGPOW3_API AGangPowPlayerController : public APlayerController
 	GENERATED_BODY()
 
 protected:
-	virtual void BeginPlay() override;
 	void SetupInputComponent() override;
 
 	void RequestSelect();

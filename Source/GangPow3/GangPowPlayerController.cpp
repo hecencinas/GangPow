@@ -3,11 +3,6 @@
 
 #include "GangPowPlayerController.h"
 
-void AGangPowPlayerController::BeginPlay()
-{
-	//GameState = GetWorld()->GetGameState<class AGameStateBase>();
-}
-
 void AGangPowPlayerController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
